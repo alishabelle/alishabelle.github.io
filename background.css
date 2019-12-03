@@ -1,0 +1,26 @@
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 18%, rgba(44,191,240,1) 60%, rgba(220, 182, 151, 1) 75%, rgba(255,126,0,1) 93%);
+}
+#sun {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin: 7em auto;
+    top: -490px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 8em;
+    box-shadow: 0 0 60px 30px #fbe602, 0 0 100px 60px #e70f14, 0 0 140px 90px #fabc14;
+}
+#moon {
+    position: absolute;
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 5px 5px 0 0 #fff;
+    top: 150px;
+    left: 70px;
+}
