@@ -144,7 +144,7 @@ p {
 #container3 {
     background: radial-gradient(#2cbff0, #090979);
     width: 100vw;
-    height: 70vh;
+    height: auto;
 }
 .text1 {
     color: black;
@@ -176,7 +176,7 @@ p {
         margin-bottom: -40px;
     }
     30% {
-        letter-spacing: 25px;
+        letter-spacing: 50px;
         margin-bottom: -40px;
     }
     85% {
