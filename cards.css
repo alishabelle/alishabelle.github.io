@@ -198,3 +198,24 @@ span {
     font-size: 30px;
     color: black;
 }
+#git {
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+}
+#twitter {
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+}
+#linkedin {
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+}
+#contact {
+    color: white;
+}
+.end {
+    padding: 0 0 0 5px;
+}
