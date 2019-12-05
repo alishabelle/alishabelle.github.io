@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="background.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <link rel="stylesheet" href="cards.css">
-        <script src="pop.js"></script>
+        
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -27,7 +27,9 @@
         <div id="container1">
             <span class="text1">Alisha Smith</span>
             <span class="text2">Full Stack Software Engineer.</span>
-            <div class="resume"></div>
+            <div id="resume">
+                <a href="#" class="resume">View Resume</a>
+            </div>
         </div>
         <div id="sun"></div>
     </header>
@@ -49,24 +51,48 @@
                <div class="container">
                     <div class="box bg2">
                         <div class="box-sub">AirBnB Console</div>
-                        <a href="#" id="button" class="button">Click me</a>
+                        <a href="#work" id="button1" class="button">Click me</a>
                     </div>
                      <div class="box bg1">
                         <div class="box-sub">Mood Ring</div>
-                        <a href="#" id="button" class="button">Click me</a>
+                        <a href="#work" id="button2" class="button">Click me</a>
                     </div>
                     <div class="box bg3">
                             <div class="box-sub1">Memory Game(In Progress)</div>
-                            <a href="#" id="button" class="button">Click me</a>
+                            <a href="#work" id="button3" class="button">Click me</a>
                     </div> 
                 </div>
-                <div class="popup">
+                <div class="popup1">
                     <div class="popup-content">
-                        <div class="close"></div>
-                        <p>LoRen ipsum text here</p>
-                        <a href="#">icon</a>
+                        <div class="close">+</div>
+                        <span>The AirBnb Clone Console was a console used to manage several classes needed in our Airbnb Clone.
+                            In this console, you are able to create, destroy, serialize and deserialize different objects and save to JSON. The console is specifically a command line interpreter and the github link on how to run it can be found below.
+                        </span>
+                        <a href="https://github.com/alishabelle/AirBnB_clone" id="github" target="_blank"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
+                <div class="popup2">
+                    <div class="popup-content">
+                        <div class="close1">+</div>
+                        <span>Mood Ring is a web application that allows users to select two colors, blend those two colors together, and then have a mood outputted based on the colors they have selected. The github link and the deployed app link can be found below.
+                        </span>
+                        <div class="icons">
+                            <a href="https://github.com/alishabelle/MoodRing" id="github" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.moodring.cc" id="link" target="_blank"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup3">
+                    <div class="popup-content">
+                        <div class="close2">+</div>
+                        <span class="mem">Holberton: The Memory game is a side project I have been working on while attending Holberton School. It is a test of how well your memory is at trying to find the match to these different programming technologies. I built different locations tailored to the different Holberton campuses there are.
+                            This app is currently in progress as I need to make it responsive and my partner on this project is working on the backend. We hope to implenet a timer and scoreboard so users can leave their names after completing the game the fastest. Stay tuned for updates and the github link to this project can be found below.
+                        </span>
+                        <a href="https://github.com/alishabelle/memorygame.git" id="github" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <script src="pop.js"></script>
             <div id="container4">
                 <h3 id="contact">* Contact</h3>
             </div>
