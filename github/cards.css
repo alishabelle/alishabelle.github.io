@@ -1,0 +1,200 @@
+body {
+    width: 100vw;
+}
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.box {
+    width: 350px;
+    height: 270px;
+    box-shadow: 0px 0px 10px 6px white;
+    text-align: center;
+    margin: 0px auto;
+}
+.box-sub {
+    width: 250px;
+    height: 50px;
+    /* margin-top: 20px;*/ 
+    background-color: #fabc14;
+    opacity: 0.8;
+    /* line-height: 70px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;   
+} 
+.box-sub1 {
+    width: 250px;
+    height: 50px;
+    /* margin-top: 50px;*/ 
+    background-color: #fabc14;
+    opacity: 0.8;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;   
+}
+.bg1 {
+    background: url(images/mood.png) no-repeat center center;
+    background-size: contain;
+}
+.bg2 {
+    background: url(images/hbnb.png) no-repeat center center;
+    background-size: contain;
+}
+.bg3 {
+    background: url(images/holby.png) no-repeat center center;
+    background-size: contain;
+}
+.button {
+    color: white;
+    margin-left: 5px;
+    margin-top: 180px;
+    display: inline-block;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 2px 4px;
+    float: left;
+}
+.resume {
+    color: black;
+    background-color: white;
+    border: 3px solid white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    text-decoration: none;
+}
+.resume:hover {
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    text-decoration: none;
+}
+.popup1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 540px;
+    position: absolute;
+    bottom: 85px;
+    top: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    /* border: 5px solid red; */
+}
+.popup2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 540px;
+    position: absolute;
+    bottom: 85px;
+    top: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.popup3 {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 540px;
+    position: absolute;
+    bottom: 85px;
+    top: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.popup-content {
+    width: 500px;
+    height: 350px;
+    background-color:white;
+    position: absolute;
+    border-radius: 10px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 55px;
+    color: #fabc14;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close1 {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 55px;
+    color: #fabc14;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close2 {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 55px;
+    color: #fabc14;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close:hover {
+    color: #fbe602;
+}
+.close1:hover {
+    color: #fbe602;
+}
+.close2:hover {
+    color: #fbe602;
+}
+span {
+    padding: 15px;
+    font-size: 20px;
+}
+.mem {
+    padding: 15px;
+    font-size: 17px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#github {
+    align-self: center;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+}
+#link {
+    font-size: 30px;
+    color: black;
+}
