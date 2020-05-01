@@ -319,10 +319,8 @@ a:hover {
         font-size: 3.5rem;
     }
 
-    .about p {
-	font-size: 1rem;
-	padding: 10px 5px;
-
+    .about {
+	padding: 0;
     }
 
     .no-color {
