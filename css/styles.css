@@ -319,7 +319,9 @@ a:hover {
         font-size: 3.5rem;
     }
 
-    .proj {
+    .about p {
+	font-size: 1rem;
+	padding: 10px 5px;
 
     }
 
