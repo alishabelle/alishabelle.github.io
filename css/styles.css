@@ -322,4 +322,8 @@ a:hover {
     .proj {
 
     }
+
+    .no-color {
+	color: #EF5350;
+    }
 }
